@@ -1,4 +1,4 @@
-package com.java8.chap3;
+package com.java8.chap3.chap3book;
 
 import java.util.ArrayList;
 import java.util.Arrays;
