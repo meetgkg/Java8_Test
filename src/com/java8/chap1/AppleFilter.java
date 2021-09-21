@@ -8,6 +8,10 @@ import static java.util.stream.Collectors.toList;
 
 public class AppleFilter {
 	
+	/*
+	 * Added Some comments
+	 */
+	
 	public static void main(String[] args) {
 		Apple apple1 = new Apple("green");
 		Apple apple2 = new Apple("orange");
