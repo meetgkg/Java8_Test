@@ -34,12 +34,12 @@ public class AppleFilter {
 		System.out.println(filteredApples2.toString());
 		
 		Stream<Apple> filteredApples3 = inventory.stream().filter( (Apple a) -> a.getColor().equalsIgnoreCase("green") );
-		System.out.println(filteredApples3);
+		System.out.println(filteredApples3.collect(toList()));
 		
-		List<Apple> greenApples = inventory.stream().filter((Apple a) -> "green".equals(a.getColor()) ).collect(toList());
+		List<Apple> greenApples = inventory.stream().filter( (Apple a) -> "green".equals(a.getColor()) ).collect(toList());
 		System.out.println(greenApples);
 		
-		List<Apple> greenParallelApples = inventory.parallelStream().filter((Apple a) -> "green".equals(a.getColor()) ).collect(toList());
+		List<Apple> greenParallelApples = inventory.parallelStream().filter( (Apple a) -> "green".equals(a.getColor()) ).collect(toList());
 		System.out.println(greenParallelApples);
 	}
 	
