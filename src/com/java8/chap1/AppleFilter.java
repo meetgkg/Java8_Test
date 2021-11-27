@@ -13,11 +13,11 @@ public class AppleFilter {
 	 */
 	
 	public static void main(String[] args) {
-		Apple apple1 = new Apple("green");
-		Apple apple2 = new Apple("orange");
-		Apple apple3 = new Apple("red");
-		Apple apple4 = new Apple("green");
-		Apple apple5 = new Apple("yellow");
+		Apple apple1 = new Apple("apple1", "green");
+		Apple apple2 = new Apple("apple2", "orange");
+		Apple apple3 = new Apple("apple3", "red");
+		Apple apple4 = new Apple("apple4", "green");
+		Apple apple5 = new Apple("apple5", "yellow");
 		
 		List<Apple> inventory = new ArrayList<Apple>();
 		inventory.add(apple1);
